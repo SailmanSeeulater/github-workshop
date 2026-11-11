@@ -1,14 +1,17 @@
 # GitHub Workshop
 
-This repo is used to practice pull requests and merge conflicts.
+A hands-on repository for learning the GitHub workflow: **forks, branches, pull requests, issues, and merge conflicts**.
 
-## Files
+## For participants
 
-- `motto.txt` — the team motto. Two competing pull requests edit the same line in this file, which is what creates our merge conflict.
+1. **Fork** this repository (the **Fork** button at the top of the page).
+2. Open **[EXERCISES.md](EXERCISES.md)** and complete the exercises in your fork.
+3. Join the live demo: the instructor will walk through two competing pull requests and how to resolve the merge conflict between them.
 
-## Workshop flow
+## What's in this repo
 
-1. Two pull requests are open: one changes the motto, the other changes it differently.
-2. We merge the first pull request together.
-3. The second pull request now has a merge conflict.
-4. We resolve the conflict, commit, and merge the second pull request.
+| File | Purpose |
+|------|---------|
+| `EXERCISES.md` | Self-paced exercises to complete in your fork |
+| `CONTRIBUTORS.md` | Add your username here via pull request (Exercise 1) |
+| `motto.txt` | Used in the instructor's live competing-PR demo |
